@@ -76,6 +76,34 @@
         <filter-name>basicAuthenticationFilter</filter-name>
         <url-pattern>/</url-pattern>
     </filter-mapping>
+    <filter-mapping>
+        <filter-name>basicAuthenticationFilter</filter-name>
+        <url-pattern>/create</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>basicAuthenticationFilter</filter-name>
+        <url-pattern>/update</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>basicAuthenticationFilter</filter-name>
+        <url-pattern>/delete</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>basicAuthenticationFilter</filter-name>
+        <url-pattern>/ptrp</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>basicAuthenticationFilter</filter-name>
+        <url-pattern>/ptrp/create</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>basicAuthenticationFilter</filter-name>
+        <url-pattern>/ptrp/update</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>basicAuthenticationFilter</filter-name>
+        <url-pattern>/ptrp/delete</url-pattern>
+    </filter-mapping>
 
 
     <security-constraint>
