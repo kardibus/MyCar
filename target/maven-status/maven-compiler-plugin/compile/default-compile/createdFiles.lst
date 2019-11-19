@@ -1,0 +1,16 @@
+servlets/car/GetCarServlet.class
+servlets/car/CreateCarServlet.class
+Utils/HibernateSessionFactoryUtil.class
+servlets/BasicAuthenticationFilter.class
+domain/Car.class
+servlets/car/UpdateCarServlet.class
+service/CarService.class
+servlets/car/DeleteCarServlet.class
+dao/CarDao.class
+servlets/propcar/CreatePropServlet.class
+servlets/propcar/UpdatePropServlet.class
+domain/PropCar.class
+service/PropCarService.class
+dao/PropCarDao.class
+servlets/propcar/GetPropServlet.class
+servlets/propcar/DeletePropServlet.class
